@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Зайцы</string>
+    <string name="shortcut_stop_short">Убрать персонажа</string>
+    <string name="shortcut_stop_long">Убрать персонажа</string>
+    <string name="shortcut_settings_short">Настройки</string>
+    <string name="shortcut_settings_long">Настройки</string>
+</resources>

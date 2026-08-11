@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="stop"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:shortcutShortLabel="@string/shortcut_stop_short"
+        android:shortcutLongLabel="@string/shortcut_stop_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.zaicy"
+            android:targetClass="com.example.personaz.MainActivity">
+            <extra
+                android:name="action"
+                android:value="stop" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:shortcutShortLabel="@string/shortcut_settings_short"
+        android:shortcutLongLabel="@string/shortcut_settings_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.zaicy"
+            android:targetClass="com.example.personaz.MainActivity">
+            <extra
+                android:name="action"
+                android:value="settings" />
+        </intent>
+    </shortcut>
+</shortcuts>
